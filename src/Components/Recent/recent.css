@@ -1,0 +1,85 @@
+.app-container-recent {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.card-container-recent {
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 10px; 
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%; 
+}
+
+.card-category-recent {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #007580;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.8em;
+  z-index: 1; 
+}
+
+.card-image-recent {
+  width: 100%;
+  height: auto;
+  display: block; 
+}
+
+.card-content-recent {
+  padding: 15px;
+  text-align: center;
+  flex-grow: 1; 
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.card-title-recent {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 1.1em;
+  color: #007580;
+}
+
+.book-now-button-recent {
+  background-color: #007580;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.book-now-button-recent:hover {
+  background-color: #014950;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #333 !important;
+}
+
+.slick-list {
+  overflow: hidden; 
+}
+
+.slick-track {
+  display: flex;
+  align-items: stretch;
+}
+

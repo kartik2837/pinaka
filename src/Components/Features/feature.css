@@ -1,0 +1,86 @@
+.app-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.card-container {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 10px; 
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  height: 100%; 
+}
+
+.card-category {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #007580;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.8em;
+  z-index: 1; 
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  display: block; 
+}
+
+.card-content {
+  padding: 15px;
+  text-align: center;
+  flex-grow: 1; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-title {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 1.1em;
+  color: #333;
+}
+
+.book-now-button {
+  background-color: #007580;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.book-now-button:hover {
+  background-color: #014950;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #333 !important;
+}
+
+.slick-list {
+  overflow: hidden; 
+}
+
+.slick-track {
+  display: flex;
+  align-items: stretch; 
+}

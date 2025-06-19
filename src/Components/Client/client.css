@@ -1,0 +1,129 @@
+
+.testimonials-section-container-pinaka {
+  width: 90%;
+  max-width: 1200px; 
+  margin: 50px auto; 
+  padding: 20px 0;
+}
+
+.testimonials-main-title-pinaka {
+  text-align: center;
+  font-size: 2.5em; 
+  font-weight: bold;
+  color: #333; 
+  margin-bottom: 10px;
+}
+
+.testimonials-subtitle-pinaka {
+  text-align: center;
+  font-size: 1.1em;
+  color: #666;
+  margin-bottom: 40px; 
+}
+
+.testimonial-card-pinaka {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 30px 20px; 
+  margin: 0 15px; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); 
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  min-height: 280px;
+  justify-content: flex-start; 
+}
+
+.testimonial-avatar-container-pinaka {
+  width: 80px; 
+  height: 80px;
+  background-color: #007580; 
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px; 
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.testimonial-avatar-pinaka {
+  width: 70px; 
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid white; 
+}
+
+.testimonial-placeholder-icon-pinaka svg {
+  width: 40px; 
+  height: 40px;
+  color: #fff; 
+}
+
+.testimonial-quote-pinaka {
+  font-size: 1.05em; 
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px; 
+  flex-grow: 1; 
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  line-clamp: 5;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis; 
+}
+
+.testimonial-name-pinaka {
+  font-size: 1.15em;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px; 
+}
+
+.testimonial-client-type-pinaka {
+  font-size: 0.9em;
+  color: #888;
+  margin-top: 0;
+}
+
+
+.slick-dots li button:before {
+  font-size: 10px;
+  color: #bbb; 
+  opacity: 0.75;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #007580; 
+  opacity: 1;
+}
+
+.slick-dots {
+  bottom: -40px;
+}
+
+.slick-prev,
+.slick-next {
+  width: 30px;
+  height: 30px;
+  z-index: 1; 
+}
+
+.slick-prev {
+  left: -40px;
+}
+
+.slick-next {
+  right: -40px; 
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 30px;
+  color: #007580; 
+  opacity: 0.8;
+}
+
