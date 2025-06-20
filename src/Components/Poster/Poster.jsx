@@ -32,4 +32,4 @@ export default Poster;
 //   );
 // };
 
-export default Poster
+//export default Poster
