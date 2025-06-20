@@ -33,7 +33,7 @@ const Home = () => {
 
 
             {/* features component */}
-            <div className="w-full flex items-center justify-center mb-[80px] mt-[50px]">
+            <div className="w-full flex items-center justify-center mb-[30px] mt-[50px]">
                 <Features></Features>
             </div>
 

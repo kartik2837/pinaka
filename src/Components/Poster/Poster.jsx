@@ -1,33 +1,35 @@
-import React from 'react'
+
+
 // import Posterimg from '/src/assets/Banner/poster.jpg';
 
 // const Poster = () => {
 //   return (
-//     <div className="w-full h-64 sm:h-80 md:h-96 lg:h-[500px] overflow-hidden rounded-xl">
+//     <div className="w-full overflow-hidden rounded-xl">
 //       <img
 //         src={Posterimg}
 //         alt="Banner"
-//         className="w-full h-full object-cover"
+//         className="w-full h-auto sm:h-96 md:h-48 lg:h-80 xl:h-[700px] object-cover object-center"
 //       />
 //     </div>
-//   )
-// }
+//   );
+// };
 
-// export default Poster
+// export default Poster;
+
 
 
 import Posterimg from '/src/assets/Banner/poster.jpg';
 
 const Poster = () => {
   return (
-    <div className="w-full h-36 sm:h-48 md:h-64 lg:h-80 xl:h-[500px] overflow-hidden rounded-xl">
+    <div className="w-full overflow-hidden rounded-xl aspect-[16/9] md:aspect-auto">
       <img
         src={Posterimg}
         alt="Banner"
-        className="w-full h-full object-cover object-center"
+        className="w-full h-full object-cover object-center md:h-48 lg:h-80 xl:h-[700px]"
       />
     </div>
   );
 };
 
-export default Poster;
+export default Poster
